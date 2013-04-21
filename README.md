@@ -7,10 +7,16 @@ YConnect Sample
 Try to run this sample like this. 
 
 1. Install. You need to install [Carton](http://search.cpan.org/dist/carton/) before.
+
+    <pre>
     $ git clone https://github.com/comewalk/perl-yconnect-sample.git
     $ cd perl-yconnect-sample
     $ carton install
+    </pre>
+
 2. Edit. Add your Application ID, Secret, Callback URL. If you need to use state and nonce, you can change them.
+
+    <pre>
     $ git diff --no-prefix lib/Yconnect/Example.pm
     diff --git lib/Yconnect/Example.pm lib/Yconnect/Example.pm
     index e37daf8..9a0f842 100644
@@ -34,8 +40,12 @@ Try to run this sample like this.
     
      sub welcome {
        my $self = shift;
+    </pre>
+
 3. Run.
+    <pre>
     $ plackup -I local/lib/perl5 script/yconnect
+    </pre>
 4. Access to http://example.com:5000/
 
 See Also
