@@ -1,0 +1,2108 @@
+{
+   "modules" : {
+      "Encode::Locale" : {
+         "dist" : "Encode-Locale-1.03",
+         "mymeta" : {
+            "abstract" : "Determine the locale encoding",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "Encode-Locale",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "Test" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "I18N::Langinfo" : "0",
+                     "Win32::Console" : "0"
+                  },
+                  "requires" : {
+                     "Encode" : "2",
+                     "Encode::Alias" : "0",
+                     "perl" : "5.008"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/encode-locale"
+               }
+            },
+            "version" : "1.03"
+         },
+         "name" : "Encode::Locale",
+         "pathname" : "G/GA/GAAS/Encode-Locale-1.03.tar.gz",
+         "provides" : {
+            "Encode::Locale" : {
+               "file" : "Encode/Locale.pm",
+               "version" : "1.03"
+            }
+         },
+         "target" : "Encode::Locale",
+         "version" : "1.03"
+      },
+      "File::Listing" : {
+         "dist" : "File-Listing-6.04",
+         "mymeta" : {
+            "abstract" : "parse directory listing",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "File-Listing",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "HTTP::Date" : "6",
+                     "perl" : "5.006002"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/libwww-perl/tree/File-Listing/master"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.04"
+         },
+         "name" : "File::Listing",
+         "pathname" : "G/GA/GAAS/File-Listing-6.04.tar.gz",
+         "provides" : {
+            "File::Listing" : {
+               "file" : "File/Listing.pm",
+               "version" : "6.04"
+            },
+            "File::Listing::apache" : {
+               "file" : "File/Listing.pm"
+            },
+            "File::Listing::dosftp" : {
+               "file" : "File/Listing.pm"
+            },
+            "File::Listing::netware" : {
+               "file" : "File/Listing.pm"
+            },
+            "File::Listing::unix" : {
+               "file" : "File/Listing.pm"
+            },
+            "File::Listing::vms" : {
+               "file" : "File/Listing.pm"
+            }
+         },
+         "target" : "File::Listing",
+         "version" : "6.04"
+      },
+      "HTML::Parser" : {
+         "dist" : "HTML-Parser-3.70",
+         "mymeta" : {
+            "abstract" : "HTML parser class",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTML-Parser",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "HTTP::Headers" : "0"
+                  },
+                  "requires" : {
+                     "HTML::Tagset" : "3",
+                     "XSLoader" : "0",
+                     "perl" : "5.008"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/html-parser"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "3.70"
+         },
+         "name" : "HTML::Parser",
+         "pathname" : "G/GA/GAAS/HTML-Parser-3.70.tar.gz",
+         "provides" : {
+            "HTML::Entities" : {
+               "file" : "HTML/Entities.pm",
+               "version" : "3.69"
+            },
+            "HTML::Filter" : {
+               "file" : "HTML/Filter.pm",
+               "version" : "3.57"
+            },
+            "HTML::HeadParser" : {
+               "file" : "HTML/HeadParser.pm",
+               "version" : "3.69"
+            },
+            "HTML::LinkExtor" : {
+               "file" : "HTML/LinkExtor.pm",
+               "version" : "3.69"
+            },
+            "HTML::Parser" : {
+               "file" : "HTML/Parser.pm",
+               "version" : "3.70"
+            },
+            "HTML::PullParser" : {
+               "file" : "HTML/PullParser.pm",
+               "version" : "3.57"
+            },
+            "HTML::TokeParser" : {
+               "file" : "HTML/TokeParser.pm",
+               "version" : "3.69"
+            }
+         },
+         "target" : "HTML::Entities",
+         "version" : "3.70"
+      },
+      "HTML::Tagset" : {
+         "dist" : "HTML-Tagset-3.20",
+         "mymeta" : {
+            "abstract" : "data tables useful in parsing HTML",
+            "author" : [
+               "Andy Lester <andy@petdance.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.42, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "unknown"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTML-Tagset",
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {}
+               }
+            },
+            "release_status" : "stable",
+            "version" : "3.20"
+         },
+         "name" : "HTML::Tagset",
+         "pathname" : "P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz",
+         "provides" : {
+            "HTML::Tagset" : {
+               "file" : "HTML/Tagset.pm",
+               "version" : "3.20"
+            }
+         },
+         "target" : "HTML::Tagset",
+         "version" : "3.20"
+      },
+      "HTTP::Cookies" : {
+         "dist" : "HTTP-Cookies-6.01",
+         "mymeta" : {
+            "abstract" : "HTTP cookie jars",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTTP-Cookies",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "HTTP::Date" : "6",
+                     "HTTP::Headers::Util" : "6",
+                     "Time::Local" : "0",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/http-cookies"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.01"
+         },
+         "name" : "HTTP::Cookies",
+         "pathname" : "G/GA/GAAS/HTTP-Cookies-6.01.tar.gz",
+         "provides" : {
+            "HTTP::Cookies" : {
+               "file" : "HTTP/Cookies.pm",
+               "version" : "6.01"
+            },
+            "HTTP::Cookies::Microsoft" : {
+               "file" : "HTTP/Cookies/Microsoft.pm",
+               "version" : "6.00"
+            },
+            "HTTP::Cookies::Netscape" : {
+               "file" : "HTTP/Cookies/Netscape.pm",
+               "version" : "6.00"
+            }
+         },
+         "target" : "HTTP::Cookies",
+         "version" : "6.01"
+      },
+      "HTTP::Daemon" : {
+         "dist" : "HTTP-Daemon-6.01",
+         "mymeta" : {
+            "abstract" : "a simple http server class",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTTP-Daemon",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "HTTP::Date" : "6",
+                     "HTTP::Request" : "6",
+                     "HTTP::Response" : "6",
+                     "HTTP::Status" : "6",
+                     "IO::Socket" : "0",
+                     "LWP::MediaTypes" : "6",
+                     "Sys::Hostname" : "0",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/http-daemon"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.01"
+         },
+         "name" : "HTTP::Daemon",
+         "pathname" : "G/GA/GAAS/HTTP-Daemon-6.01.tar.gz",
+         "provides" : {
+            "HTTP::Daemon" : {
+               "file" : "HTTP/Daemon.pm",
+               "version" : "6.01"
+            },
+            "HTTP::Daemon::ClientConn" : {
+               "file" : "HTTP/Daemon.pm"
+            }
+         },
+         "target" : "HTTP::Daemon",
+         "version" : "6.01"
+      },
+      "HTTP::Date" : {
+         "dist" : "HTTP-Date-6.02",
+         "mymeta" : {
+            "abstract" : "date conversion routines",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTTP-Date",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "Time::Zone" : "0"
+                  },
+                  "requires" : {
+                     "Time::Local" : "0",
+                     "perl" : "5.006002"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/http-date"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.02"
+         },
+         "name" : "HTTP::Date",
+         "pathname" : "G/GA/GAAS/HTTP-Date-6.02.tar.gz",
+         "provides" : {
+            "HTTP::Date" : {
+               "file" : "HTTP/Date.pm",
+               "version" : "6.02"
+            }
+         },
+         "target" : "HTTP::Date",
+         "version" : "6.02"
+      },
+      "HTTP::Message" : {
+         "dist" : "HTTP-Message-6.06",
+         "mymeta" : {
+            "abstract" : "HTTP style messages",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTTP-Message",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "Compress::Raw::Zlib" : "0",
+                     "Encode" : "2.21",
+                     "Encode::Locale" : "1",
+                     "HTTP::Date" : "6",
+                     "IO::Compress::Bzip2" : "2.021",
+                     "IO::Compress::Deflate" : "0",
+                     "IO::Compress::Gzip" : "0",
+                     "IO::HTML" : "0",
+                     "IO::Uncompress::Bunzip2" : "2.021",
+                     "IO::Uncompress::Gunzip" : "0",
+                     "IO::Uncompress::Inflate" : "0",
+                     "IO::Uncompress::RawInflate" : "0",
+                     "LWP::MediaTypes" : "6",
+                     "MIME::Base64" : "2.1",
+                     "MIME::QuotedPrint" : "0",
+                     "URI" : "1.10",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/libwww-perl/http-message"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.06"
+         },
+         "name" : "HTTP::Message",
+         "pathname" : "G/GA/GAAS/HTTP-Message-6.06.tar.gz",
+         "provides" : {
+            "HTTP::Config" : {
+               "file" : "HTTP/Config.pm",
+               "version" : "6.00"
+            },
+            "HTTP::Headers" : {
+               "file" : "HTTP/Headers.pm",
+               "version" : "6.05"
+            },
+            "HTTP::Headers::Auth" : {
+               "file" : "HTTP/Headers/Auth.pm",
+               "version" : "6.00"
+            },
+            "HTTP::Headers::ETag" : {
+               "file" : "HTTP/Headers/ETag.pm",
+               "version" : "6.00"
+            },
+            "HTTP::Headers::Util" : {
+               "file" : "HTTP/Headers/Util.pm",
+               "version" : "6.03"
+            },
+            "HTTP::Message" : {
+               "file" : "HTTP/Message.pm",
+               "version" : "6.06"
+            },
+            "HTTP::Request" : {
+               "file" : "HTTP/Request.pm",
+               "version" : "6.00"
+            },
+            "HTTP::Request::Common" : {
+               "file" : "HTTP/Request/Common.pm",
+               "version" : "6.04"
+            },
+            "HTTP::Response" : {
+               "file" : "HTTP/Response.pm",
+               "version" : "6.04"
+            },
+            "HTTP::Status" : {
+               "file" : "HTTP/Status.pm",
+               "version" : "6.03"
+            }
+         },
+         "target" : "HTTP::Status",
+         "version" : "6.06"
+      },
+      "HTTP::Negotiate" : {
+         "dist" : "HTTP-Negotiate-6.01",
+         "mymeta" : {
+            "abstract" : "choose a variant to serve",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "HTTP-Negotiate",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "HTTP::Headers" : "6",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/http-negotiate"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.01"
+         },
+         "name" : "HTTP::Negotiate",
+         "pathname" : "G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz",
+         "provides" : {
+            "HTTP::Negotiate" : {
+               "file" : "HTTP/Negotiate.pm",
+               "version" : "6.01"
+            }
+         },
+         "target" : "HTTP::Negotiate",
+         "version" : "6.01"
+      },
+      "IO::HTML" : {
+         "dist" : "IO-HTML-1.00",
+         "mymeta" : {
+            "abstract" : "Open an HTML file with automatic charset detection",
+            "author" : [
+               "Christopher J. Madsen <perl@cjmweb.net>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "Dist::Zilla version 4.300029, CPAN::Meta::Converter version 2.120921, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "IO-HTML",
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "File::Temp" : "0",
+                     "Scalar::Util" : "0",
+                     "Test::More" : "0.88"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "6.30"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "Carp" : "0",
+                     "Encode" : "2.10",
+                     "Exporter" : "5.57"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "type" : "git",
+                  "url" : "git://github.com/madsen/io-html.git"
+               }
+            },
+            "version" : "1.00",
+            "x_Dist_Zilla" : {
+               "perl" : {
+                  "version" : "5.014002"
+               },
+               "plugins" : [
+                  {
+                     "class" : "Dist::Zilla::Plugin::VersionFromModule",
+                     "name" : "CJM/VersionFromModule",
+                     "version" : "0.08"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::GatherDir",
+                     "name" : "CJM/GatherDir",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::PruneCruft",
+                     "name" : "CJM/PruneCruft",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::ManifestSkip",
+                     "name" : "CJM/ManifestSkip",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::MetaJSON",
+                     "name" : "CJM/MetaJSON",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::MetaYAML",
+                     "name" : "CJM/MetaYAML",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::License",
+                     "name" : "CJM/License",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Test::PrereqsFromMeta",
+                     "name" : "CJM/Test::PrereqsFromMeta",
+                     "version" : "4.04"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
+                     "name" : "CJM/PodSyntaxTests",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::PodCoverageTests",
+                     "name" : "CJM/PodCoverageTests",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::ExtraTests",
+                     "name" : "CJM/ExtraTests",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::PodLoom",
+                     "config" : {
+                        "Pod::Loom version" : "0.06"
+                     },
+                     "name" : "CJM/PodLoom",
+                     "version" : "4.10"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::MakeMaker",
+                     "name" : "CJM/MakeMaker",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::MetaConfig",
+                     "name" : "CJM/MetaConfig",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::MatchManifest",
+                     "name" : "CJM/MatchManifest",
+                     "version" : "4.00"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::RecommendedPrereqs",
+                     "name" : "CJM/RecommendedPrereqs",
+                     "version" : "4.06"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::CheckPrereqsIndexed",
+                     "name" : "CJM/CheckPrereqsIndexed",
+                     "version" : "0.006"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::GitVersionCheckCJM",
+                     "name" : "CJM/GitVersionCheckCJM",
+                     "version" : "4.03"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::TemplateCJM",
+                     "name" : "CJM/TemplateCJM",
+                     "version" : "4.12"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Repository",
+                     "name" : "CJM/Repository",
+                     "version" : "0.18"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Git::Check",
+                     "name" : "CJM/@Git/Check",
+                     "version" : "2.005"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Git::Commit",
+                     "name" : "CJM/@Git/Commit",
+                     "version" : "2.005"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Git::Tag",
+                     "name" : "CJM/@Git/Tag",
+                     "version" : "2.005"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::Git::Push",
+                     "name" : "CJM/@Git/Push",
+                     "version" : "2.005"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::TestRelease",
+                     "name" : "CJM/TestRelease",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::UploadToCPAN",
+                     "name" : "CJM/UploadToCPAN",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::ArchiveRelease",
+                     "name" : "CJM/ArchiveRelease",
+                     "version" : "4.00"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::AutoPrereqs",
+                     "name" : "AutoPrereqs",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":InstallModules",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":IncModules",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":TestFiles",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":ExecFiles",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":ShareFiles",
+                     "version" : "4.300029"
+                  },
+                  {
+                     "class" : "Dist::Zilla::Plugin::FinderCode",
+                     "name" : ":MainModule",
+                     "version" : "4.300029"
+                  }
+               ],
+               "zilla" : {
+                  "class" : "Dist::Zilla::Dist::Builder",
+                  "config" : {
+                     "is_trial" : "0"
+                  },
+                  "version" : "4.300029"
+               }
+            }
+         },
+         "name" : "IO::HTML",
+         "pathname" : "C/CJ/CJM/IO-HTML-1.00.tar.gz",
+         "provides" : {
+            "IO::HTML" : {
+               "file" : "IO/HTML.pm",
+               "version" : "1.00"
+            }
+         },
+         "target" : "IO::HTML",
+         "version" : "1.00"
+      },
+      "IO::Socket::SSL" : {
+         "dist" : "IO-Socket-SSL-1.86",
+         "mymeta" : {
+            "abstract" : "Nearly transparent SSL encapsulation for IO::Socket::INET.",
+            "author" : [
+               "Steffen Ullrich & Peter Behroozi & Marko Asplund"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "IO-Socket-SSL",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "Net::SSLeay" : "1.21",
+                     "Scalar::Util" : "0"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "https://github.com/noxxi/p5-io-socket-ssl"
+               }
+            },
+            "version" : "1.86"
+         },
+         "name" : "IO::Socket::SSL",
+         "pathname" : "S/SU/SULLR/IO-Socket-SSL-1.86.tar.gz",
+         "provides" : {
+            "IO::Socket::SSL" : {
+               "file" : "IO/Socket/SSL.pm",
+               "version" : "1.86"
+            },
+            "IO::Socket::SSL::SSL_Context" : {
+               "file" : "IO/Socket/SSL.pm"
+            },
+            "IO::Socket::SSL::SSL_HANDLE" : {
+               "file" : "IO/Socket/SSL.pm"
+            },
+            "IO::Socket::SSL::Session_Cache" : {
+               "file" : "IO/Socket/SSL.pm"
+            }
+         },
+         "target" : "IO::Socket::SSL",
+         "version" : "1.86"
+      },
+      "LWP" : {
+         "dist" : "libwww-perl-6.05",
+         "mymeta" : {
+            "abstract" : "The World-Wide Web library for Perl",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "libwww-perl",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "Authen::NTLM" : "1.02",
+                     "Data::Dump" : "0",
+                     "LWP::Protocol::https" : "6.02"
+                  },
+                  "requires" : {
+                     "Digest::MD5" : "0",
+                     "Encode" : "2.12",
+                     "Encode::Locale" : "0",
+                     "File::Listing" : "6",
+                     "HTML::Entities" : "0",
+                     "HTML::HeadParser" : "0",
+                     "HTTP::Cookies" : "6",
+                     "HTTP::Daemon" : "6",
+                     "HTTP::Date" : "6",
+                     "HTTP::Negotiate" : "6",
+                     "HTTP::Request" : "6",
+                     "HTTP::Request::Common" : "6",
+                     "HTTP::Response" : "6",
+                     "HTTP::Status" : "6",
+                     "IO::Select" : "0",
+                     "IO::Socket" : "0",
+                     "LWP::MediaTypes" : "6",
+                     "MIME::Base64" : "2.1",
+                     "Net::FTP" : "2.58",
+                     "Net::HTTP" : "6.04",
+                     "URI" : "1.10",
+                     "URI::Escape" : "0",
+                     "WWW::RobotRules" : "6",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "https://github.com/libwww-perl/libwww-perl"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.05"
+         },
+         "name" : "LWP",
+         "pathname" : "G/GA/GAAS/libwww-perl-6.05.tar.gz",
+         "provides" : {
+            "LWP" : {
+               "file" : "LWP.pm",
+               "version" : "6.05"
+            },
+            "LWP::Authen::Basic" : {
+               "file" : "LWP/Authen/Basic.pm"
+            },
+            "LWP::Authen::Digest" : {
+               "file" : "LWP/Authen/Digest.pm"
+            },
+            "LWP::Authen::Ntlm" : {
+               "file" : "LWP/Authen/Ntlm.pm",
+               "version" : "6.00"
+            },
+            "LWP::ConnCache" : {
+               "file" : "LWP/ConnCache.pm",
+               "version" : "6.02"
+            },
+            "LWP::Debug" : {
+               "file" : "LWP/Debug.pm"
+            },
+            "LWP::DebugFile" : {
+               "file" : "LWP/DebugFile.pm"
+            },
+            "LWP::MemberMixin" : {
+               "file" : "LWP/MemberMixin.pm"
+            },
+            "LWP::Protocol" : {
+               "file" : "LWP/Protocol.pm",
+               "version" : "6.00"
+            },
+            "LWP::Protocol::GHTTP" : {
+               "file" : "LWP/Protocol/GHTTP.pm"
+            },
+            "LWP::Protocol::MyFTP" : {
+               "file" : "LWP/Protocol/ftp.pm"
+            },
+            "LWP::Protocol::cpan" : {
+               "file" : "LWP/Protocol/cpan.pm"
+            },
+            "LWP::Protocol::data" : {
+               "file" : "LWP/Protocol/data.pm"
+            },
+            "LWP::Protocol::file" : {
+               "file" : "LWP/Protocol/file.pm"
+            },
+            "LWP::Protocol::ftp" : {
+               "file" : "LWP/Protocol/ftp.pm"
+            },
+            "LWP::Protocol::gopher" : {
+               "file" : "LWP/Protocol/gopher.pm"
+            },
+            "LWP::Protocol::http" : {
+               "file" : "LWP/Protocol/http.pm"
+            },
+            "LWP::Protocol::http::Socket" : {
+               "file" : "LWP/Protocol/http.pm"
+            },
+            "LWP::Protocol::http::SocketMethods" : {
+               "file" : "LWP/Protocol/http.pm"
+            },
+            "LWP::Protocol::loopback" : {
+               "file" : "LWP/Protocol/loopback.pm"
+            },
+            "LWP::Protocol::mailto" : {
+               "file" : "LWP/Protocol/mailto.pm"
+            },
+            "LWP::Protocol::nntp" : {
+               "file" : "LWP/Protocol/nntp.pm"
+            },
+            "LWP::Protocol::nogo" : {
+               "file" : "LWP/Protocol/nogo.pm"
+            },
+            "LWP::RobotUA" : {
+               "file" : "LWP/RobotUA.pm",
+               "version" : "6.03"
+            },
+            "LWP::Simple" : {
+               "file" : "LWP/Simple.pm",
+               "version" : "6.00"
+            },
+            "LWP::UserAgent" : {
+               "file" : "LWP/UserAgent.pm",
+               "version" : "6.05"
+            }
+         },
+         "target" : "LWP::UserAgent",
+         "version" : "6.05"
+      },
+      "LWP::MediaTypes" : {
+         "dist" : "LWP-MediaTypes-6.02",
+         "mymeta" : {
+            "abstract" : "guess media type for a file or a URL",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "LWP-MediaTypes",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "perl" : "5.006002"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/lwp-mediatypes"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.02"
+         },
+         "name" : "LWP::MediaTypes",
+         "pathname" : "G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz",
+         "provides" : {
+            "LWP::MediaTypes" : {
+               "file" : "LWP/MediaTypes.pm",
+               "version" : "6.02"
+            }
+         },
+         "target" : "LWP::MediaTypes",
+         "version" : "6.02"
+      },
+      "LWP::Protocol::https" : {
+         "dist" : "LWP-Protocol-https-6.03",
+         "mymeta" : {
+            "abstract" : "Provide https support for LWP::UserAgent",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "LWP-Protocol-https",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "IO::Socket::SSL" : "1.54",
+                     "LWP::UserAgent" : "6.04",
+                     "Mozilla::CA" : "20110101",
+                     "Net::HTTPS" : "6",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/lwp-protocol-https"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.03"
+         },
+         "name" : "LWP::Protocol::https",
+         "pathname" : "G/GA/GAAS/LWP-Protocol-https-6.03.tar.gz",
+         "provides" : {
+            "LWP::Protocol::https" : {
+               "file" : "LWP/Protocol/https.pm",
+               "version" : "6.03"
+            },
+            "LWP::Protocol::https::Socket" : {
+               "file" : "LWP/Protocol/https.pm"
+            }
+         },
+         "target" : "LWP::Protocol::https",
+         "version" : "6.03"
+      },
+      "Mojolicious" : {
+         "dist" : "Mojolicious-3.95",
+         "mymeta" : {
+            "abstract" : "Real-time web framework",
+            "author" : [
+               "Sebastian Riedel <sri@cpan.org>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "artistic_2"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "Mojolicious",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc",
+                  "t"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {}
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "bugtracker" : {
+                  "web" : "http://github.com/kraih/mojo/issues"
+               },
+               "homepage" : "http://mojolicio.us",
+               "license" : [
+                  "http://www.opensource.org/licenses/artistic-license-2.0"
+               ],
+               "repository" : {
+                  "url" : "http://github.com/kraih/mojo"
+               },
+               "x_MailingList" : "http://groups.google.com/group/mojolicious"
+            },
+            "version" : "3.95"
+         },
+         "name" : "Mojolicious",
+         "pathname" : "S/SR/SRI/Mojolicious-3.95.tar.gz",
+         "provides" : {
+            "Mojo" : {
+               "file" : "Mojo.pm"
+            },
+            "Mojo::Asset" : {
+               "file" : "Mojo/Asset.pm"
+            },
+            "Mojo::Asset::File" : {
+               "file" : "Mojo/Asset/File.pm"
+            },
+            "Mojo::Asset::Memory" : {
+               "file" : "Mojo/Asset/Memory.pm"
+            },
+            "Mojo::Base" : {
+               "file" : "Mojo/Base.pm"
+            },
+            "Mojo::ByteStream" : {
+               "file" : "Mojo/ByteStream.pm"
+            },
+            "Mojo::Cache" : {
+               "file" : "Mojo/Cache.pm"
+            },
+            "Mojo::Collection" : {
+               "file" : "Mojo/Collection.pm"
+            },
+            "Mojo::Content" : {
+               "file" : "Mojo/Content.pm"
+            },
+            "Mojo::Content::MultiPart" : {
+               "file" : "Mojo/Content/MultiPart.pm"
+            },
+            "Mojo::Content::Single" : {
+               "file" : "Mojo/Content/Single.pm"
+            },
+            "Mojo::Cookie" : {
+               "file" : "Mojo/Cookie.pm"
+            },
+            "Mojo::Cookie::Request" : {
+               "file" : "Mojo/Cookie/Request.pm"
+            },
+            "Mojo::Cookie::Response" : {
+               "file" : "Mojo/Cookie/Response.pm"
+            },
+            "Mojo::DOM" : {
+               "file" : "Mojo/DOM.pm"
+            },
+            "Mojo::DOM::CSS" : {
+               "file" : "Mojo/DOM/CSS.pm"
+            },
+            "Mojo::DOM::HTML" : {
+               "file" : "Mojo/DOM/HTML.pm"
+            },
+            "Mojo::Date" : {
+               "file" : "Mojo/Date.pm"
+            },
+            "Mojo::EventEmitter" : {
+               "file" : "Mojo/EventEmitter.pm"
+            },
+            "Mojo::Exception" : {
+               "file" : "Mojo/Exception.pm"
+            },
+            "Mojo::Headers" : {
+               "file" : "Mojo/Headers.pm"
+            },
+            "Mojo::HelloWorld" : {
+               "file" : "Mojo/HelloWorld.pm"
+            },
+            "Mojo::Home" : {
+               "file" : "Mojo/Home.pm"
+            },
+            "Mojo::IOLoop" : {
+               "file" : "Mojo/IOLoop.pm"
+            },
+            "Mojo::IOLoop::Client" : {
+               "file" : "Mojo/IOLoop/Client.pm"
+            },
+            "Mojo::IOLoop::Delay" : {
+               "file" : "Mojo/IOLoop/Delay.pm"
+            },
+            "Mojo::IOLoop::Server" : {
+               "file" : "Mojo/IOLoop/Server.pm"
+            },
+            "Mojo::IOLoop::Stream" : {
+               "file" : "Mojo/IOLoop/Stream.pm"
+            },
+            "Mojo::JSON" : {
+               "file" : "Mojo/JSON.pm"
+            },
+            "Mojo::JSON::Pointer" : {
+               "file" : "Mojo/JSON/Pointer.pm"
+            },
+            "Mojo::Loader" : {
+               "file" : "Mojo/Loader.pm"
+            },
+            "Mojo::Log" : {
+               "file" : "Mojo/Log.pm"
+            },
+            "Mojo::Message" : {
+               "file" : "Mojo/Message.pm"
+            },
+            "Mojo::Message::Request" : {
+               "file" : "Mojo/Message/Request.pm"
+            },
+            "Mojo::Message::Response" : {
+               "file" : "Mojo/Message/Response.pm"
+            },
+            "Mojo::Parameters" : {
+               "file" : "Mojo/Parameters.pm"
+            },
+            "Mojo::Path" : {
+               "file" : "Mojo/Path.pm"
+            },
+            "Mojo::Reactor" : {
+               "file" : "Mojo/Reactor.pm"
+            },
+            "Mojo::Reactor::EV" : {
+               "file" : "Mojo/Reactor/EV.pm"
+            },
+            "Mojo::Reactor::Poll" : {
+               "file" : "Mojo/Reactor/Poll.pm"
+            },
+            "Mojo::Server" : {
+               "file" : "Mojo/Server.pm"
+            },
+            "Mojo::Server::CGI" : {
+               "file" : "Mojo/Server/CGI.pm"
+            },
+            "Mojo::Server::Daemon" : {
+               "file" : "Mojo/Server/Daemon.pm"
+            },
+            "Mojo::Server::Hypnotoad" : {
+               "file" : "Mojo/Server/Hypnotoad.pm"
+            },
+            "Mojo::Server::Morbo" : {
+               "file" : "Mojo/Server/Morbo.pm"
+            },
+            "Mojo::Server::PSGI" : {
+               "file" : "Mojo/Server/PSGI.pm"
+            },
+            "Mojo::Server::Prefork" : {
+               "file" : "Mojo/Server/Prefork.pm"
+            },
+            "Mojo::Template" : {
+               "file" : "Mojo/Template.pm"
+            },
+            "Mojo::Transaction" : {
+               "file" : "Mojo/Transaction.pm"
+            },
+            "Mojo::Transaction::HTTP" : {
+               "file" : "Mojo/Transaction/HTTP.pm"
+            },
+            "Mojo::Transaction::WebSocket" : {
+               "file" : "Mojo/Transaction/WebSocket.pm"
+            },
+            "Mojo::URL" : {
+               "file" : "Mojo/URL.pm"
+            },
+            "Mojo::Upload" : {
+               "file" : "Mojo/Upload.pm"
+            },
+            "Mojo::UserAgent" : {
+               "file" : "Mojo/UserAgent.pm"
+            },
+            "Mojo::UserAgent::CookieJar" : {
+               "file" : "Mojo/UserAgent/CookieJar.pm"
+            },
+            "Mojo::UserAgent::Transactor" : {
+               "file" : "Mojo/UserAgent/Transactor.pm"
+            },
+            "Mojo::Util" : {
+               "file" : "Mojo/Util.pm"
+            },
+            "Mojolicious" : {
+               "file" : "Mojolicious.pm",
+               "version" : "3.95"
+            },
+            "Mojolicious::Command" : {
+               "file" : "Mojolicious/Command.pm"
+            },
+            "Mojolicious::Command::cgi" : {
+               "file" : "Mojolicious/Command/cgi.pm"
+            },
+            "Mojolicious::Command::cpanify" : {
+               "file" : "Mojolicious/Command/cpanify.pm"
+            },
+            "Mojolicious::Command::daemon" : {
+               "file" : "Mojolicious/Command/daemon.pm"
+            },
+            "Mojolicious::Command::eval" : {
+               "file" : "Mojolicious/Command/eval.pm"
+            },
+            "Mojolicious::Command::generate" : {
+               "file" : "Mojolicious/Command/generate.pm"
+            },
+            "Mojolicious::Command::generate::app" : {
+               "file" : "Mojolicious/Command/generate/app.pm"
+            },
+            "Mojolicious::Command::generate::lite_app" : {
+               "file" : "Mojolicious/Command/generate/lite_app.pm"
+            },
+            "Mojolicious::Command::generate::makefile" : {
+               "file" : "Mojolicious/Command/generate/makefile.pm"
+            },
+            "Mojolicious::Command::generate::plugin" : {
+               "file" : "Mojolicious/Command/generate/plugin.pm"
+            },
+            "Mojolicious::Command::get" : {
+               "file" : "Mojolicious/Command/get.pm"
+            },
+            "Mojolicious::Command::inflate" : {
+               "file" : "Mojolicious/Command/inflate.pm"
+            },
+            "Mojolicious::Command::prefork" : {
+               "file" : "Mojolicious/Command/prefork.pm"
+            },
+            "Mojolicious::Command::psgi" : {
+               "file" : "Mojolicious/Command/psgi.pm"
+            },
+            "Mojolicious::Command::routes" : {
+               "file" : "Mojolicious/Command/routes.pm"
+            },
+            "Mojolicious::Command::test" : {
+               "file" : "Mojolicious/Command/test.pm"
+            },
+            "Mojolicious::Command::version" : {
+               "file" : "Mojolicious/Command/version.pm"
+            },
+            "Mojolicious::Commands" : {
+               "file" : "Mojolicious/Commands.pm"
+            },
+            "Mojolicious::Controller" : {
+               "file" : "Mojolicious/Controller.pm"
+            },
+            "Mojolicious::Lite" : {
+               "file" : "Mojolicious/Lite.pm"
+            },
+            "Mojolicious::Plugin" : {
+               "file" : "Mojolicious/Plugin.pm"
+            },
+            "Mojolicious::Plugin::Charset" : {
+               "file" : "Mojolicious/Plugin/Charset.pm"
+            },
+            "Mojolicious::Plugin::Config" : {
+               "file" : "Mojolicious/Plugin/Config.pm"
+            },
+            "Mojolicious::Plugin::DefaultHelpers" : {
+               "file" : "Mojolicious/Plugin/DefaultHelpers.pm"
+            },
+            "Mojolicious::Plugin::EPLRenderer" : {
+               "file" : "Mojolicious/Plugin/EPLRenderer.pm"
+            },
+            "Mojolicious::Plugin::EPRenderer" : {
+               "file" : "Mojolicious/Plugin/EPRenderer.pm"
+            },
+            "Mojolicious::Plugin::HeaderCondition" : {
+               "file" : "Mojolicious/Plugin/HeaderCondition.pm"
+            },
+            "Mojolicious::Plugin::JSONConfig" : {
+               "file" : "Mojolicious/Plugin/JSONConfig.pm"
+            },
+            "Mojolicious::Plugin::Mount" : {
+               "file" : "Mojolicious/Plugin/Mount.pm"
+            },
+            "Mojolicious::Plugin::PODRenderer" : {
+               "file" : "Mojolicious/Plugin/PODRenderer.pm"
+            },
+            "Mojolicious::Plugin::PoweredBy" : {
+               "file" : "Mojolicious/Plugin/PoweredBy.pm"
+            },
+            "Mojolicious::Plugin::RequestTimer" : {
+               "file" : "Mojolicious/Plugin/RequestTimer.pm"
+            },
+            "Mojolicious::Plugin::TagHelpers" : {
+               "file" : "Mojolicious/Plugin/TagHelpers.pm"
+            },
+            "Mojolicious::Plugins" : {
+               "file" : "Mojolicious/Plugins.pm"
+            },
+            "Mojolicious::Renderer" : {
+               "file" : "Mojolicious/Renderer.pm"
+            },
+            "Mojolicious::Routes" : {
+               "file" : "Mojolicious/Routes.pm"
+            },
+            "Mojolicious::Routes::Match" : {
+               "file" : "Mojolicious/Routes/Match.pm"
+            },
+            "Mojolicious::Routes::Pattern" : {
+               "file" : "Mojolicious/Routes/Pattern.pm"
+            },
+            "Mojolicious::Routes::Route" : {
+               "file" : "Mojolicious/Routes/Route.pm"
+            },
+            "Mojolicious::Sessions" : {
+               "file" : "Mojolicious/Sessions.pm"
+            },
+            "Mojolicious::Static" : {
+               "file" : "Mojolicious/Static.pm"
+            },
+            "Mojolicious::Types" : {
+               "file" : "Mojolicious/Types.pm"
+            },
+            "Test::Mojo" : {
+               "file" : "Test/Mojo.pm"
+            },
+            "ojo" : {
+               "file" : "ojo.pm"
+            }
+         },
+         "target" : "Mojolicious",
+         "version" : "3.95"
+      },
+      "Mozilla::CA" : {
+         "dist" : "Mozilla-CA-20130114",
+         "mymeta" : {
+            "abstract" : "Mozilla's CA cert bundle in PEM format",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "unknown"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "Mozilla-CA",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "Test" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "perl" : "5.006"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/mozilla-ca"
+               }
+            },
+            "version" : "20130114"
+         },
+         "name" : "Mozilla::CA",
+         "pathname" : "A/AB/ABH/Mozilla-CA-20130114.tar.gz",
+         "provides" : {
+            "Mozilla::CA" : {
+               "file" : "Mozilla/CA.pm",
+               "version" : "20130114"
+            }
+         },
+         "target" : "Mozilla::CA",
+         "version" : "20130114"
+      },
+      "Net::HTTP" : {
+         "dist" : "Net-HTTP-6.06",
+         "mymeta" : {
+            "abstract" : "Low-level HTTP connection (client)",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "Net-HTTP",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "IO::Socket::SSL" : "1.38"
+                  },
+                  "requires" : {
+                     "Compress::Raw::Zlib" : "0",
+                     "IO::Compress::Gzip" : "0",
+                     "IO::Select" : "0",
+                     "IO::Socket::INET" : "0",
+                     "perl" : "5.006002"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/net-http"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.06"
+         },
+         "name" : "Net::HTTP",
+         "pathname" : "G/GA/GAAS/Net-HTTP-6.06.tar.gz",
+         "provides" : {
+            "Net::HTTP" : {
+               "file" : "Net/HTTP.pm",
+               "version" : "6.06"
+            },
+            "Net::HTTP::Methods" : {
+               "file" : "Net/HTTP/Methods.pm",
+               "version" : "6.06"
+            },
+            "Net::HTTP::NB" : {
+               "file" : "Net/HTTP/NB.pm",
+               "version" : "6.04"
+            },
+            "Net::HTTPS" : {
+               "file" : "Net/HTTPS.pm",
+               "version" : "6.04"
+            }
+         },
+         "target" : "Net::HTTP",
+         "version" : "6.06"
+      },
+      "Net::SSLeay" : {
+         "dist" : "Net-SSLeay-1.54",
+         "mymeta" : {
+            "abstract" : "Perl extension for using OpenSSL",
+            "author" : [
+               "Maintained by Mike McCauley and Florian Ragwitz since November 2005"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "open_source"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "Net-SSLeay",
+            "no_index" : {
+               "directory" : [
+                  "examples",
+                  "ext",
+                  "helper_script",
+                  "inc",
+                  "t"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "6.36"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "6.36"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "MIME::Base64" : "0",
+                     "Test::More" : "0.60_01",
+                     "perl" : "5.005"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "bugtracker" : {
+                  "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=net-ssleay"
+               },
+               "repository" : {
+                  "url" : "http://svn.debian.org/wsvn/net-ssleay"
+               }
+            },
+            "version" : "1.53"
+         },
+         "name" : "Net::SSLeay",
+         "pathname" : "M/MI/MIKEM/Net-SSLeay-1.54.tar.gz",
+         "provides" : {
+            "Net::SSLeay" : {
+               "file" : "Net/SSLeay.pm",
+               "version" : "1.54"
+            },
+            "Net::SSLeay::Handle" : {
+               "file" : "Net/SSLeay/Handle.pm",
+               "version" : "0.61"
+            }
+         },
+         "target" : "Net::SSLeay",
+         "version" : "1.54"
+      },
+      "URI" : {
+         "dist" : "URI-1.60",
+         "mymeta" : {
+            "abstract" : "Uniform Resource Identifiers (absolute and relative)",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "URI",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0",
+                     "Test" : "0",
+                     "Test::More" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "recommends" : {
+                     "Business::ISBN" : "0"
+                  },
+                  "requires" : {
+                     "MIME::Base64" : "2",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "https://github.com/libwww-perl/uri"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "1.60"
+         },
+         "name" : "URI",
+         "pathname" : "G/GA/GAAS/URI-1.60.tar.gz",
+         "provides" : {
+            "URI" : {
+               "file" : "URI.pm",
+               "version" : "1.60"
+            },
+            "URI::Escape" : {
+               "file" : "URI/Escape.pm",
+               "version" : "3.31"
+            },
+            "URI::Heuristic" : {
+               "file" : "URI/Heuristic.pm",
+               "version" : "4.20"
+            },
+            "URI::IRI" : {
+               "file" : "URI/IRI.pm"
+            },
+            "URI::QueryParam" : {
+               "file" : "URI/QueryParam.pm"
+            },
+            "URI::Split" : {
+               "file" : "URI/Split.pm"
+            },
+            "URI::URL" : {
+               "file" : "URI/URL.pm",
+               "version" : "5.04"
+            },
+            "URI::WithBase" : {
+               "file" : "URI/WithBase.pm",
+               "version" : "2.20"
+            },
+            "URI::data" : {
+               "file" : "URI/data.pm"
+            },
+            "URI::file" : {
+               "file" : "URI/file.pm",
+               "version" : "4.21"
+            },
+            "URI::file::Base" : {
+               "file" : "URI/file/Base.pm"
+            },
+            "URI::file::FAT" : {
+               "file" : "URI/file/FAT.pm"
+            },
+            "URI::file::Mac" : {
+               "file" : "URI/file/Mac.pm"
+            },
+            "URI::file::OS2" : {
+               "file" : "URI/file/OS2.pm"
+            },
+            "URI::file::QNX" : {
+               "file" : "URI/file/QNX.pm"
+            },
+            "URI::file::Unix" : {
+               "file" : "URI/file/Unix.pm"
+            },
+            "URI::file::Win32" : {
+               "file" : "URI/file/Win32.pm"
+            },
+            "URI::ftp" : {
+               "file" : "URI/ftp.pm"
+            },
+            "URI::gopher" : {
+               "file" : "URI/gopher.pm"
+            },
+            "URI::http" : {
+               "file" : "URI/http.pm"
+            },
+            "URI::https" : {
+               "file" : "URI/https.pm"
+            },
+            "URI::ldap" : {
+               "file" : "URI/ldap.pm",
+               "version" : "1.12"
+            },
+            "URI::ldapi" : {
+               "file" : "URI/ldapi.pm"
+            },
+            "URI::ldaps" : {
+               "file" : "URI/ldaps.pm"
+            },
+            "URI::mailto" : {
+               "file" : "URI/mailto.pm"
+            },
+            "URI::mms" : {
+               "file" : "URI/mms.pm"
+            },
+            "URI::news" : {
+               "file" : "URI/news.pm"
+            },
+            "URI::nntp" : {
+               "file" : "URI/nntp.pm"
+            },
+            "URI::pop" : {
+               "file" : "URI/pop.pm"
+            },
+            "URI::rlogin" : {
+               "file" : "URI/rlogin.pm"
+            },
+            "URI::rsync" : {
+               "file" : "URI/rsync.pm"
+            },
+            "URI::rtsp" : {
+               "file" : "URI/rtsp.pm"
+            },
+            "URI::rtspu" : {
+               "file" : "URI/rtspu.pm"
+            },
+            "URI::sip" : {
+               "file" : "URI/sip.pm",
+               "version" : "0.11"
+            },
+            "URI::sips" : {
+               "file" : "URI/sips.pm"
+            },
+            "URI::snews" : {
+               "file" : "URI/snews.pm"
+            },
+            "URI::ssh" : {
+               "file" : "URI/ssh.pm"
+            },
+            "URI::telnet" : {
+               "file" : "URI/telnet.pm"
+            },
+            "URI::tn3270" : {
+               "file" : "URI/tn3270.pm"
+            },
+            "URI::urn" : {
+               "file" : "URI/urn.pm"
+            },
+            "URI::urn::isbn" : {
+               "file" : "URI/urn/isbn.pm"
+            },
+            "URI::urn::oid" : {
+               "file" : "URI/urn/oid.pm"
+            }
+         },
+         "target" : "URI::Escape",
+         "version" : "1.60"
+      },
+      "WWW::RobotRules" : {
+         "dist" : "WWW-RobotRules-6.02",
+         "mymeta" : {
+            "abstract" : "database of robots.txt-derived permissions",
+            "author" : [
+               "Gisle Aas <gisle@activestate.com>"
+            ],
+            "dynamic_config" : 0,
+            "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.130880",
+            "license" : [
+               "perl_5"
+            ],
+            "meta-spec" : {
+               "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+               "version" : "2"
+            },
+            "name" : "WWW-RobotRules",
+            "no_index" : {
+               "directory" : [
+                  "t",
+                  "inc"
+               ]
+            },
+            "prereqs" : {
+               "build" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "configure" : {
+                  "requires" : {
+                     "ExtUtils::MakeMaker" : "0"
+                  }
+               },
+               "runtime" : {
+                  "requires" : {
+                     "AnyDBM_File" : "0",
+                     "Fcntl" : "0",
+                     "URI" : "1.10",
+                     "perl" : "5.008001"
+                  }
+               }
+            },
+            "release_status" : "stable",
+            "resources" : {
+               "repository" : {
+                  "url" : "http://github.com/gisle/www-robotrules"
+               },
+               "x_MailingList" : "mailto:libwww@perl.org"
+            },
+            "version" : "6.02"
+         },
+         "name" : "WWW::RobotRules",
+         "pathname" : "G/GA/GAAS/WWW-RobotRules-6.02.tar.gz",
+         "provides" : {
+            "WWW::RobotRules" : {
+               "file" : "WWW/RobotRules.pm",
+               "version" : "6.02"
+            },
+            "WWW::RobotRules::AnyDBM_File" : {
+               "file" : "WWW/RobotRules/AnyDBM_File.pm",
+               "version" : "6.00"
+            },
+            "WWW::RobotRules::InCore" : {
+               "file" : "WWW/RobotRules.pm"
+            }
+         },
+         "target" : "WWW::RobotRules",
+         "version" : "6.02"
+      }
+   },
+   "version" : "0.9"
+}

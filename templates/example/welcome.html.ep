@@ -1,0 +1,5 @@
+<%= include "example/header" %>
+<div id="container">
+  <a href="<%= $auth_url %>"><img src="http://i.yimg.jp/images/login/btn/btnXSYid.gif" width="241" height="28" alt="Yahoo! JAPAN IDでログイン" border="0"></a>
+</div>
+<%= include "example/footer" %>

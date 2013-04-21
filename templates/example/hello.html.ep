@@ -1,0 +1,28 @@
+<%= include "example/header" %>
+<div id="container">
+  <h2>Welcome</h2>
+  <p>ユーザ情報</p>
+  <ul>
+    <li><%= $userinfo->{user_id} %></li>
+    <li><%= $userinfo->{name} %></li>
+    <li><%= $userinfo->{given_name} %></li>
+    <li><%= $userinfo->{'given_name#ja-Kana-JP'} %></li>
+    <li><%= $userinfo->{'given_name#ja-Hani-JP'} %></li>
+    <li><%= $userinfo->{family_name} %></li>
+    <li><%= $userinfo->{'family_name#ja-Kana-JP'} %></li>
+    <li><%= $userinfo->{'family_name#ja-Hani-JP'} %></li>
+    <li><%= $userinfo->{gender} %></li>
+    <li><%= $userinfo->{birthday} %></li>
+    <li><%= $userinfo->{locale} %></li>
+    <li><%= $userinfo->{email} %></li>
+    <li><%= $userinfo->{email_verified} %></li>
+  </ul>
+  <p>住所</p>
+  <ul>
+    <li><%= $address->{country} %></li>
+    <li><%= $address->{postal_code} %></li>
+    <li><%= $address->{region} %></li>
+    <li><%= $address->{locality} %></li>
+  </ul>
+</div>
+<%= include "example/footer" %>

@@ -1,0 +1,9 @@
+<%= include "example/header" %>
+<h2>An error occurred</h2>
+<h3>Detail</h3>
+<ul>
+  <li>Code: <%= $error_code %></li>
+  <li>Status: <%= $error %></li>
+  <li>Description: <%= $error_description %></li>
+</ul>
+<%= include "example/footer" %>

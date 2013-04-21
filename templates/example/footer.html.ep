@@ -1,0 +1,6 @@
+  <footer>
+    <p>This is a <a href="http://developer.yahoo.co.jp/yconnect/" target="_blank">YConnect</a> sample application. This sample is written in Perl by using <a href="http://mojolicio.us/" target="_blank">Mojolicious</a>.
+    The code is available in <a href="https://github.com/comewalk/perl-yconnect-sample" target="_blank">github</a>.</p>
+  </footer>
+</body>
+</html>

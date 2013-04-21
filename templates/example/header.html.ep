@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YConnect Sample</title>
+  <link rel="stylesheet" href="/css/core.css" />
+</head>
+<body>
+  <header>
+    <h1>YConnect Sample</h1>
+  </header>
